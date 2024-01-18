@@ -6,3 +6,5 @@ iOS Slop
 
 * [@StateObject vs @ObservedObject](state/state.md)
     * StateObject retains state. ObservedObject loses state after reinitialization.
+
+* [Associated Type](./associatedType.md)
