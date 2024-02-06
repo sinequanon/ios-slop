@@ -8,3 +8,5 @@ iOS Slop
     * StateObject retains state. ObservedObject loses state after reinitialization.
 
 * [Associated Type](./associatedType.md)
+
+* Stepper
