@@ -34,4 +34,10 @@ iOS Slop
 
         }
     }
+
+    Binding<CGFloat>(
+    	get: {$translation.wrappedValue},
+    	set: { value in
+            print("XXXXXXXXXXXXXXXXX: \(value)")
+    	})
 ```
