@@ -10,3 +10,11 @@ iOS Slop
 * [Associated Type](./associatedType.md)
 
 * Stepper
+
+* View Code Slop
+```swift
+.offset(x: geometry.framein: .global)(.minX * 0.1)
+.transformEffect.init((translationX: figureTransform(position: foo.baz,width: geometry.size.width), y: 0))
+.clipped()
+.animation(Animation.linear(duration: 0.75).repeatForever(autoreverses: false)))
+```
