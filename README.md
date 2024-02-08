@@ -11,10 +11,27 @@ iOS Slop
 
 * Stepper
 
-* View Code Slop
+* View modifiers
 ```swift
 .offset(x: geometry.framein: .global)(.minX * 0.1)
 .transformEffect.init((translationX: figureTransform(position: foo.baz,width: geometry.size.width), y: 0))
 .clipped()
 .animation(Animation.linear(duration: 0.75).repeatForever(autoreverses: false)))
+```
+
+* Binding
+```swift
+    func selection() -> Binding<Int> {
+        Binding {
+            self.currentIndex
+        } set: { tappedTab in
+            print("Tapped : \(tappedTab)")
+            if tappedTab != currentIndex {
+                print("XXXXXXXXXXXXXXXXXX")
+            } else {
+                self.currentIndex = tappedTab
+            }
+
+        }
+    }
 ```
